@@ -1,0 +1,27 @@
+form {
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+input {
+    width: 80%;
+}
+
+button {
+    font-family: 'iA Writer Quattro V';
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+}
+.form-field-names,
+.form-fields {
+    display:flex;
+    flex-direction: column;
+    // border: 1px solid black;
+    width: 100%;
+}
+
+.form-field-names { flex: 1; }
+.form-fields { flex: 4; }
