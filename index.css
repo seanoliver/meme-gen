@@ -54,32 +54,38 @@ button {
   flex-wrap: wrap-reverse;
   flex-direction: row-reverse;
   justify-content: space-around;
+  align-items: center;
 }
 
 .meme-item {
   padding: 20px;
-  max-width: 225px;
-  border-radius: 3px;
+  max-width: 250px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 5px;
   position: relative;
 }
 .meme-item img {
   width: 100%;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .meme-item div {
   position: absolute;
   text-align: center;
-  width: 225px;
+  width: 250px;
   font-family: "Impact";
   font-size: 20px;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 1px black;
   -webkit-text-fill-color: white;
 }
 .meme-item .top-line {
-  top: 50px;
+  top: 40px;
 }
 .meme-item .bottom-line {
-  bottom: 100px;
+  bottom: 40px;
+}
+.meme-item:hover {
+  background-color: black;
 }
 
 .container {
