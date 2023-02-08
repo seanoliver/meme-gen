@@ -47,6 +47,13 @@ button {
   flex: 4;
 }
 
+.meme-roll {
+  border: 1px solid black;
+  min-height: 30vh;
+  width: 80vw;
+  display: flex;
+}
+
 .container {
   border: 1px solid black;
   width: 100%;
