@@ -1,6 +1,36 @@
 .meme-roll {
-    border: 1px solid black;
     min-height: 30vh;
     width: 80vw;
     display: flex;
+    flex-wrap:wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.meme-item {
+padding: 20px;
+    max-width: 225px;
+    border-radius: 3px;
+    position: relative;
+
+    img {
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    div {
+        position:absolute;
+        // background-color: black;
+        text-align: center;
+        width: 225px;
+        font-family: 'Impact';
+        font-size: 20px;
+        -webkit-text-stroke: 2px black;
+        -webkit-text-fill-color: white;
+    }
+
+    .top-line { top: 50px; }
+
+    .bottom-line { bottom: 100px; }
+
 }

@@ -48,14 +48,41 @@ button {
 }
 
 .meme-roll {
-  border: 1px solid black;
   min-height: 30vh;
   width: 80vw;
   display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.meme-item {
+  padding: 20px;
+  max-width: 225px;
+  border-radius: 3px;
+  position: relative;
+}
+.meme-item img {
+  width: 100%;
+  border-radius: 3px;
+}
+.meme-item div {
+  position: absolute;
+  text-align: center;
+  width: 225px;
+  font-family: "Impact";
+  font-size: 20px;
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: white;
+}
+.meme-item .top-line {
+  top: 50px;
+}
+.meme-item .bottom-line {
+  bottom: 100px;
 }
 
 .container {
-  border: 1px solid black;
   width: 100%;
   display: flex;
   flex-direction: column;
