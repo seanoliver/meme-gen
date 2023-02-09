@@ -14,7 +14,7 @@ $meme-radius: 5px;
 .meme-item {
     padding: 20px;
     max-width: $meme-width;
-    height:fit-content;
+    height: fit-content;
     border-radius: $meme-radius;
     position: relative;
 
@@ -37,8 +37,8 @@ $meme-radius: 5px;
 
     .bottom-line { bottom: 40px; }
 
-    &:hover {
-        background-color: black;
+    .remove-meme img {
+
     }
 
 }

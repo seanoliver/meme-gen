@@ -25,3 +25,8 @@ button {
 
 .form-field-names { flex: 1; }
 .form-fields { flex: 4; }
+
+.form-field > span {
+    font-size: 12px;
+    color: gray;
+}

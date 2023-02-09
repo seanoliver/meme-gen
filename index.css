@@ -47,6 +47,11 @@ button {
   flex: 4;
 }
 
+.form-field > span {
+  font-size: 12px;
+  color: gray;
+}
+
 .meme-roll {
   min-height: 30vh;
   width: 80vw;
@@ -84,10 +89,6 @@ button {
 .meme-item .bottom-line {
   bottom: 40px;
 }
-.meme-item:hover {
-  background-color: black;
-}
-
 .container {
   width: 100%;
   display: flex;
