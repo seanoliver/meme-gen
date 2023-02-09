@@ -36,6 +36,36 @@ button {
     }
 }
 
+.tooltip {
+    position: relative;
+
+    &:hover::before {
+        display: block;
+    }
+
+    &::before {
+        content: attr(data-text);
+        position: absolute;
+
+        /* vertically center */
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 50px;
+        right: -10px;
+
+        width: 100px;
+        font-size: 10px;
+        background-color: var(--form-hover-bg-color);
+        color: var(--main-font-color);
+        padding: 10px;
+        border-radius: 5px;
+
+        display: none;
+
+    }
+
+}
+
 .form-container {
     display: flex;
     justify-content: space-around;

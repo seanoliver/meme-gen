@@ -22,7 +22,7 @@ The generator should consist of a form that accepts a link to an image, text for
 
 - [X] Fix bug: Meme doesn't delete when you click on the X instead of the div background
 - [X] Correct delete button color contrast
-- [ ] Add tooltip to "Meme Me" button
+- [X] Add tooltip to "Meme Me" button
 - [X] Mobile responsive layout
 - [X] Dark theme
 - [X] Auto-focus on form field
