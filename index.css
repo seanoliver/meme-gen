@@ -1,3 +1,79 @@
+/*! reasonable colors v0.4.0 | MIT License | https://github.com/matthewhowell/reasonable-colors */
+/* ******
+
+Format for SCSS variables: $color-COLORNAME-SHADE
+
+Available values for COLORNAME:
+	gray,
+	rose, raspberry, red, orange, cinnamon, amber, yellow, lime,
+	chartreuse, green, emerald, aquamarine, teal, cyan, powder, sky
+	cerulean, azure, blue, indigo, violet, purple, magenta, pink
+
+Available values for SHADE:
+	1, 2, 3, 4, 5, 6
+
+Minimum contrast can be inferred by the difference between two SHADE numbers
+
+- Difference of 2: (3:1)
+- Difference of 3: (4.5:1)
+- Difference of 4: (7:1)
+
+reasonable-colors.css uses hex values. HSL, LCH, and RGB color spaces are available.
+
+For .scss friendly variable declarations, FILENAME.scss for each color space are provided.
+
+More information available at: https://www.reasonable.work/colors
+
+****** */
+/* gray */
+/* rose */
+/* hue 1 */
+/* raspberry */
+/* hue 2 */
+/* red */
+/* hue 3 */
+/* orange */
+/* hue 4 */
+/* cinnamon */
+/* hue 5 */
+/* amber */
+/* hue 6 */
+/* yellow */
+/* hue 7 */
+/* lime */
+/* hue 8 */
+/* chartreuse */
+/* hue 9 */
+/* green */
+/* hue 10 */
+/* emerald */
+/* hue 11 */
+/* aquamarine */
+/* hue 12 */
+/* teal */
+/* hue 13 */
+/* cyan */
+/* hue 14 */
+/* powder */
+/* hue 15 */
+/* sky */
+/* hue 16 */
+/* cerulean */
+/* hue 17 */
+/* azure */
+/* hue 18 */
+/* blue */
+/* hue 19 */
+/* indigo */
+/* hue 20 */
+/* violet */
+/* hue 21 */
+/* purple */
+/* hue 22 */
+/* magenta */
+/* hue 23 */
+/* pink */
+/* hue 24 */
 @font-face {
   font-family: "iA Writer Quattro V";
   font-weight: 400 700;
