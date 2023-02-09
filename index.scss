@@ -1,8 +1,14 @@
 @import 'partials/reasonable-colors';
+@import 'partials/dark-light';
 @import 'partials/fonts';
+@import 'partials/responsive';
 @import 'partials/text';
 @import 'partials/form-style';
 @import 'partials/meme-roll';
+
+body {
+    background-color: var(--bg-color);
+}
 
 .container {
     width: 100%;

@@ -1,0 +1,15 @@
+/* Mobile */
+@media only screen and (max-width: 400px) {
+.field-name {
+    display: none;
+}
+
+}
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .form-fields { flex-direction: column;}
+}
+/* Desktop */
+@media only screen and (min-width: 961px) {
+
+}

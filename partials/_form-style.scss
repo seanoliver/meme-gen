@@ -3,30 +3,51 @@ form {
     padding-bottom: 40px;
 }
 
-input {
-    width: 80%;
+input,
+button {
+    width: 100%;
+    font-family: var(--main-font);
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--form-bg-color);
+    color: var(--main-font-color);
 }
 
+input:hover {
+    background-color: var(--form-hover-bg-color);
+}
+
+::placeholder {
+    color: var(--main-font-color);
+}
+
+
 button {
-    font-family: 'iA Writer Quattro V';
+    &:hover {
+        background-color: $color-lime-6;
+        color: $color-lime-1;
+    }
 }
 
 .form-container {
     display: flex;
     justify-content: space-around;
 }
-.form-field-names,
 .form-fields {
     display:flex;
-    flex-direction: column;
-    // border: 1px solid black;
+    flex-wrap: wrap;
     width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.form-field-names { flex: 1; }
-.form-fields { flex: 4; }
+.form-field {
+    padding: 0px 10px;
+}
 
 .form-field > span {
     font-size: 12px;
     color: gray;
+    display: none;
 }
