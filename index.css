@@ -76,26 +76,30 @@ More information available at: https://www.reasonable.work/colors
 /* hue 24 */
 @media screen and (prefers-color-scheme: light) {
   :root {
-    --bg-color: #f7ffac;
+    --bg-color: #e3f7ff;
     --form-bg-color: var(--bg-color);
-    --main-font-color: #222600;
-    --form-hover-bg-color: #d5f200;
-    --button-hover-bg-color: #222600;
-    --link-secondary-color: hsl(216.87, 99.99%, 49.48%);
-    --link-color: hsl(240.84, 99.96%, 93.36%);
+    --main-font-color: #001f28;
+    --form-hover-bg-color: #aee9ff;
+    --form-hover-color: #00404f;
+    --button-hover-bg-color: #001f28;
+    --button-hover-color: #e3f7ff;
     --main-font: "iA Writer Quattro V";
     --mono-font: "iA Writer Mono V";
-    --border-color: #d5f200;
+    --border-color: #aee9ff;
   }
 }
 @media screen and (prefers-color-scheme: dark) {
   :root {
-    --bg-color: $color-lime-6;
-    --main-font-color: hsl(241.96, 99.87%, 97.56%);
-    --link-secondary-color: hsl(216.87, 99.99%, 49.48%);
-    --link-color: hsl(240.84, 99.96%, 93.36%);
+    --bg-color: #001f28;
+    --form-bg-color: var(--bg-color);
+    --main-font-color: #e3f7ff;
+    --form-hover-bg-color: #00404f;
+    --form-hover-color: #aee9ff ;
+    --button-hover-bg-color: #e3f7ff;
+    --button-hover-color: #001f28;
     --main-font: "iA Writer Quattro V";
     --mono-font: "iA Writer Mono V";
+    --border-color: #00404f;
   }
 }
 @font-face {
@@ -155,10 +159,16 @@ input:hover {
 ::placeholder {
   color: var(--main-font-color);
 }
+::-moz-placeholder:hover {
+  color: var(--form-hover-color);
+}
+::placeholder:hover {
+  color: var(--form-hover-color);
+}
 
 button:hover {
-  background-color: #222600;
-  color: #f7ffac;
+  background-color: var(--button-hover-bg-color);
+  color: var(--button-hover-color);
 }
 
 .form-container {
@@ -224,6 +234,7 @@ button:hover {
 
 body {
   background-color: var(--bg-color);
+  color: var(--main-font-color);
 }
 
 .container {

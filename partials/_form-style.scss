@@ -21,13 +21,18 @@ input:hover {
 
 ::placeholder {
     color: var(--main-font-color);
+
+    &:hover {
+        color: var(--form-hover-color);
+
+    }
 }
 
 
 button {
     &:hover {
-        background-color: $color-lime-6;
-        color: $color-lime-1;
+        background-color: var(--button-hover-bg-color);
+        color: var(--button-hover-color);
     }
 }
 

@@ -1,32 +1,36 @@
 @media screen and (prefers-color-scheme: light) {
     :root {
-      --bg-color: #{$color-lime-1};
+      --bg-color: #{$color-sky-1};
       --form-bg-color: var(--bg-color);
-      --main-font-color: #{$color-lime-6};
+      --main-font-color: #{$color-sky-6};
 
-      --form-hover-bg-color: #{$color-lime-2};
-      --button-hover-bg-color: #{$color-lime-6};
+      --form-hover-bg-color: #{$color-sky-2};
+      --form-hover-color: #{$color-sky-5};
 
-      --link-secondary-color: hsl(216.87, 99.99%, 49.48%);
-      --link-color: hsl(240.84, 99.96%, 93.36%);
-
+      --button-hover-bg-color: #{$color-sky-6};
+      --button-hover-color: #{$color-sky-1};
 
       --main-font: "iA Writer Quattro V";
       --mono-font: "iA Writer Mono V";
 
-      --border-color: #{$color-lime-2};
+      --border-color: #{$color-sky-2};
     }
 }
 @media screen and (prefers-color-scheme: dark) {
     :root {
-        --bg-color: $color-lime-6;
-        --main-font-color: hsl(241.96, 99.87%, 97.56%);
+      --bg-color: #{$color-sky-6};
+      --form-bg-color: var(--bg-color);
+      --main-font-color: #{$color-sky-1};
 
-        --link-secondary-color: hsl(216.87, 99.99%, 49.48%);
-        --link-color: hsl(240.84, 99.96%, 93.36%);
+      --form-hover-bg-color: #{$color-sky-5};
+      --form-hover-color: #{$color-sky-2}
+      ;
+      --button-hover-bg-color: #{$color-sky-1};
+      --button-hover-color: #{$color-sky-6};
 
+      --main-font: "iA Writer Quattro V";
+      --mono-font: "iA Writer Mono V";
 
-        --main-font: "iA Writer Quattro V";
-        --mono-font: "iA Writer Mono V";
+      --border-color: #{$color-sky-5};
       }
-}
+    }
