@@ -13,3 +13,11 @@ Your generator should consist of a form that accepts a link to an image, text fo
 - [X] User should be able to submit a form on the page to generate a new meme on the page, and should be able to add multiple memes to the page by submitting the form multiple times.
 - [X] Users should be able to click on a button to remove a meme from the page.
 - [X] When the meme form is submitted, values in the form inputs should be cleared.
+
+## To Do
+
+- [ ] Mobile responsive layout
+- [ ] Dark theme
+- [ ] Styling form fields and page
+- [ ] 5-10 more random memes for auto generator
+- [ ] Animations?
