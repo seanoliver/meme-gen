@@ -19,7 +19,7 @@ Your generator should consist of a form that accepts a link to an image, text fo
 - [ ] Fix bug on delete first meme in list
 - [X] Mobile responsive layout
 - [X] Dark theme
-- [ ] Auto-focus on form field
+- [X] Auto-focus on form field
 - [X] Styling form fields and page
 - [ ] 5-10 more random memes for auto generator
 - [ ] Animations?
