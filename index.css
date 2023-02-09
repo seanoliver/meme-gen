@@ -116,8 +116,8 @@ More information available at: https://www.reasonable.work/colors
 }
 /* Mobile */
 @media only screen and (max-width: 400px) {
-  .field-name {
-    display: none;
+  .form-fields {
+    flex-direction: column;
   }
 }
 /* Tablet */

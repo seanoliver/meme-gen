@@ -1,12 +1,10 @@
 # The Meme Manufactory
 
-The Meme Manufactory is a simple meme generator written in vanilla HTML, CSS, and JavaScript.
+The Meme Manufactory is a simple, browser-based meme generator written in vanilla HTML, CSS, and JavaScript.
 
 ## Overview
 
-For this assignment, you’ll be building a meme generator in the browser using HTML, CSS, and JavaScript.
-
-Your generator should consist of a form that accepts a link to an image, text for the top of the meme, and text for the bottom of the meme. When the user submits the form, use JavaScript to append to the DOM a div which contains the meme, including the image and its text.
+The generator should consist of a form that accepts a link to an image, text for the top of the meme, and text for the bottom of the meme. When the user submits the form, use JavaScript to append to the DOM a div which contains the meme, including the image and its text.
 
 ## Requirements
 
@@ -14,9 +12,17 @@ Your generator should consist of a form that accepts a link to an image, text fo
 - [X] Users should be able to click on a button to remove a meme from the page.
 - [X] When the meme form is submitted, values in the form inputs should be cleared.
 
+## Bonus Updates
+
+- Light and dark mode
+- Click "Meme Me" with empty fields to auto-generate a random meme
+
+
 ## To Do
 
-- [ ] Fix bug on delete first meme in list
+- [X] Fix bug: Meme doesn't delete when you click on the X instead of the div background
+- [X] Correct delete button color contrast
+- [ ] Add tooltip to "Meme Me" button
 - [X] Mobile responsive layout
 - [X] Dark theme
 - [X] Auto-focus on form field

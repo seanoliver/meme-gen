@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function addOverlay(meme) {
     const overlayDiv = document.createElement("div");
-    overlayDiv.style.backgroundColor = "rgba(0,0,0,0.5)";
+    overlayDiv.style.backgroundColor = "rgba(0, 148, 180, 0.3)";
     overlayDiv.style.position = "absolute";
     overlayDiv.style.top = "0";
     overlayDiv.style.left = "0";
@@ -128,7 +128,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const memeRemovalDiv = meme.lastElementChild;
 
     memeRemovalDiv.addEventListener("click", function(event) {
-      event.target.parentElement.remove();
+
+        if (event.target.parentElement.classList.contains("meme-item")) {
+          event.target.parentElement.remove();
+        } else {
+          event.target.parentElement.parentElement.remove();
+        }
     })
 
   }
